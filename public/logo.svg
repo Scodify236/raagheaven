@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+  <!-- Background circle -->
+  <circle cx="100" cy="50" r="40" fill="#4A90E2"/>
+  
+  <!-- Music note stem -->
+  <path d="M120 20 L120 60" stroke="white" stroke-width="3"/>
+  
+  <!-- Music note head -->
+  <ellipse cx="120" cy="60" rx="8" ry="6" fill="white" transform="rotate(-20,120,60)"/>
+  
+  <!-- Sound waves -->
+  <path d="M140 35 Q150 50 140 65" fill="none" stroke="white" stroke-width="2"/>
+  <path d="M145 30 Q160 50 145 70" fill="none" stroke="white" stroke-width="2"/>
+  <path d="M150 25 Q170 50 150 75" fill="none" stroke="white" stroke-width="2"/>
+  
+  <!-- Small decorative notes -->
+  <circle cx="85" cy="40" r="4" fill="white"/>
+  <line x1="85" y1="40" x2="85" y2="25" stroke="white" stroke-width="2"/>
+  
+  <circle cx="70" cy="55" r="4" fill="white"/>
+  <line x1="70" y1="55" x2="70" y2="40" stroke="white" stroke-width="2"/>
+</svg>
