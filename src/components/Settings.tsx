@@ -277,28 +277,24 @@ export default function() {
           <ToggleSwitch
             id="enforceProxySwitch"
             name='Proxy non-music streams'
-            checked={!getSaved('enforceProxy')}
-            onClick={() => {
-              getSaved('enforceProxy') ?
-                removeSaved('enforceProxy') :
-                save('enforceProxy', 'true');
-              quickSwitch();
+            checked={false}  // Always off
+            onClick={(e) => {
+              // Prevent enabling
+              e.preventDefault();
+              return false;
             }}
           />
 
           <ToggleSwitch
             id="useInvidiousProxySwitch"
             name='Proxy Audio over Invidious'
-            checked={!getSaved('proxyViaInvidious')}
-            onClick={() => {
-              getSaved('proxyViaInvidious') ?
-                removeSaved('proxyViaInvidious') :
-                save('proxyViaInvidious', 'false');
-
-              quickSwitch();
+            checked={false}  // Always off
+            onClick={(e) => {
+              // Prevent enabling
+              e.preventDefault();
+              return false;
             }}
           />
-
         </Show>
 
         <ToggleSwitch

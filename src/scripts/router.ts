@@ -85,7 +85,7 @@ nav.addEventListener('click', (e: Event) => {
 
     document.title = (
       inHome ? homeTitle : routeName
-    ) + ' - ytify';
+    ) + ' - RaagHeaven';
 
   }
   showSection(anchor.id);

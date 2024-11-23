@@ -136,7 +136,7 @@ export async function fetchCollection(collection: string | null) {
   listSection.scrollTo(0, 0);
   history.replaceState({}, '',
     location.origin + location.pathname + '?collection=' + collection);
-  document.title = (collection || 'Shared Playlist') + ' - ytify';
+  document.title = (collection || 'Shared Playlist') + ' - Raag Heaven';
 }
 
 
