@@ -43,7 +43,7 @@ export default function CollectionSelector(_: {
         }}
       >
         <option>Add To</option>
-        <option value="+cl">Create New Collection</option>
+        <option value="+cl">Create New Playlist</option>
         <option value="favorites">Favorites</option>
         <option value="listenLater">Listen Later</option>
       </select>
