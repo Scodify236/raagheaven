@@ -7,7 +7,7 @@ export default function UpdatePrompt(handleUpdate: () => void) {
   const [fullList, setFullList] = createSignal(['']);
 
 
-  fetch('https://api.github.com/repos/n-ce/ytify/commits/main')
+  fetch('https://api.github.com/repos/Scodify236/raagheaven/commits/main')
     .then(res => res.json())
     .then(data => data.commit.message.split('-'))
     .then(list => list.map((text: string) => (<li>{text}</li>)))
@@ -21,7 +21,7 @@ export default function UpdatePrompt(handleUpdate: () => void) {
   }
 
   const handleFullList = () =>
-    fetch('https://raw.githubusercontent.com/wiki/n-ce/ytify/Changelog.md')
+    fetch('https://raw.githubusercontent.com/wiki/Scodify236/raagheaven/Changelog.md')
       .then(res => res.text())
       .then(text => text.split('\n'))
       .then(e => setFullList(e));

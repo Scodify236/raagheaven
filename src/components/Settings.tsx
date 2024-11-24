@@ -53,7 +53,7 @@ export default function() {
     <>
       <div>
         <b id="ytifyIconContainer">
-          <p>ytify {Version}</p>
+          <p>Raag Heaven {Version}</p>
         </b>
 
         <ToggleSwitch
