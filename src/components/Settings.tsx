@@ -400,9 +400,9 @@ export default function() {
           }}
         >
           <option value="none">None</option>
-          <option value="0.2rem">Lighter</option>
-          <option value="0.4rem">Light</option>
-          <option value="0.6rem">Heavy</option>
+          <option value="0.9rem">Lighter</option>
+          <option value="0.9rem">Light</option>
+          <option value="0.9rem">Heavy</option>
           <option value="0.9rem" selected>Heavier</option>
         </Selector>
 
